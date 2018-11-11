@@ -1,0 +1,39 @@
+,belongs_to :cohort,,,,,
+,"has_many :managed_cohorts, class_name: ""Cohort"", foreign_key: ""user_id""",,,,,
+,has_many: :posts,,,,,
+User,has_many :post_comments,,,,,
+id,First Name,Last Name,Email,password_digest,Post-Cohort Employer,cohort_id
+integer,string,string,string,,string,integer
+101,Greg,Daniels,gdaniels@example.com,******,Actualize,
+102,Michael,Schur,mschur@example.com,******,Actualize,
+103,Eleanor,Shellstrop,eshellstrop@example.com,******,,203
+104,Chidi,Anagonye,canagonye@example.com,******,,203
+105,Tahani,Al-Jamil,tal-jamil@example.com,******,,203
+106,Jason,Mendoza,jmendoza@example.com,******,,203
+107,Leslie,Knope,lknope@example.com,******,Dept. of National Parks,202
+108,Ron,Swanson,rswanson@example.com,******,Very Good Building & Development Co.,202
+109,Tom,Haverford,thaverford@example.com,******,Tom's Bistro,202
+110,Ann,Perkins,aperkins@example.com,******,Ann Arbor General Hospital,202
+111,Andy,Dwyer,adwyer@example.com,******,Johnny Karate Media,202
+112,April,Ludgate-Dwyer,aludgate-dwyer@example.com,******,American Service Foundation,202
+113,Donna,Meagle,dmeagle@example.com,******,Regal Meagle Realty,202
+114,Jerry,Gergich,jgergich@example.com,******,Retired,202
+115,Ben,Wyatt,bwyatt@example.com,******,U.S. Senate,202
+116,Chris,Traeger,ctraeger@example.com,******,University of Michigan,202
+117,Michael,Scott,mscott@example.com,******,,201
+118,Jim,Halpert,jhalpert@example.com,******,Athlead,201
+119,Pam,Halpert,phalpert@example.com,******,New York Art Institute,201
+120,Dwight,Schrute,dschrute@example.com,******,Dunder-Mifflin,201
+121,Andy,Bernard,abernard@example.com,******,Cornell University,201
+122,Stanley,Hudson,shudson@example.com,******,Retired,201
+123,Daryl,Philbin,dphilbin@example.com,******,Athlead,201
+124,Phyllis,Vance,pvance@example.com,******,Vance Refrigeration,201
+125,Meredith,Palmer,mpalmer@example.com,******,Dunder-Mifflin,201
+126,Creed,Bratton,cbratton@example.com,******,,201
+127,Kelly,Kapur,kkapur@example.com,******,Miami University,201
+128,Ryan,Howard,rhoward@example.com,******,Wuphf.com,201
+129,Oscar,Martinez,omartinex@example.com,******,PA State Senate,201
+130,Angela,Martin,amartin@example.com,******,Dunder-Mifflin,201
+131,Kevin,Malone,kmalone@example.com,******,Malone's Pub,201
+132,Jeff,Winger,jwinger@example.com,******,,204
+133,Troy,Barnes,tbarnes@example.com,******,,204
